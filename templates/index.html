@@ -1,0 +1,32 @@
+<head>
+  <title>Mascot Generator</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      
+      <h1>Mascot Generator</h1>
+      <p class="lead">Because everyone wants a cool sounding thing as their band name, project name, or code name</p>
+      <p><a class="btn btn-lg btn-success" href="javascript:location.reload();">Refresh</a></p>
+    </div>
+    
+    <div class="row marketing">
+      <div class="col-lg-6">
+      {% for name in names[:10] %}
+        <p><h4>{{ name }}</h4></p>{% endfor %}
+      </div>
+
+      <div class="col-lg-6">
+      {% for name in names[10:] %}
+        <p><h4>{{ name }}</h4></p>{% endfor %}
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; Jose Nazario 2013</p>
+    </div>
+  </div>
+</body>
