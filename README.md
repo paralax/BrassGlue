@@ -6,9 +6,13 @@ inspired by some real life work. as you may have guessed it was used to
 name this project.
 
 the code
+
 	generate.py
+
 will generate N (default is 20) names.
+
      	app.py
+
 is a small Flask frontend and uses Twitter Bootstrap for (basic) styling. 
 
 License
