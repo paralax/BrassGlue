@@ -5,7 +5,7 @@ import sys
 
 # in the style of frog team names ... 
 
-one = ('adjectives', 'elements', 'metals', 'verbs', 'gems',)
+one = ('adjectives', 'elements', 'metals', 'verbs', 'gems', 'gerunds',)
 two = ('animals', 'boats', 'dogs', 'flowers', 'reptiles', 'weapons', 'birds', 
        'fish', 'cats', 'fruit', 'plants', 'tools',)
 
