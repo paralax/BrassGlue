@@ -15,7 +15,7 @@ app.debug = True
 def root():
     # in the style of frog team names ... 
 
-    one = ('adjectives', 'colors', 'metals', 'verbs',)  # removed elements
+    one = ('adjectives', 'colors', 'metals', 'verbs', 'gems',)  # removed elements
     two = ('animals', 'boats', 'dogs', 'flowers', 'reptiles', 'weapons', 'birds', 
            'fish', 'cats', 'fruit', 'plants', 'tools',)
 
