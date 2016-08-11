@@ -7,7 +7,7 @@ import sys
 
 one = ('adjectives', 'elements', 'metals', 'verbs', 'gems', 'gerunds',)
 two = ('animals', 'boats', 'dogs', 'flowers', 'reptiles', 'weapons', 'birds', 
-       'fish', 'cats', 'fruit', 'plants', 'tools', 'nautical',)
+       'fish', 'cats', 'fruit', 'plants', 'tools', 'sports', 'nautical',)
 
 with open('wordlists/' + random.choice(one), 'r') as f:
     first = [ x.strip() for x in f.readlines() ]
