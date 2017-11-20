@@ -15,10 +15,10 @@ app.debug = True
 def root():
     # in the style of frog team names ... 
 
-    one = ('adjectives', 'colors', 'metals', 'verbs', 'gems',)  # removed elements
-    two = ('animals', 'boats', 'dogs', 'flowers', 'reptiles', 'weapons', 'birds', 
-           'fish', 'cats', 'fruit', 'plants', 'tools', 'sports', 'nautical')
-
+    one = ('adjectives', 'elements', 'metals', 'verbs', 'sizes', 'gerunds', 'adverbs')
+    two = ('animals', 'boats', 'dogs', 'flowers', 'reptiles', 'weapons', 'birds',
+           'fish', 'cats', 'fruit', 'plants', 'tools', 'shapes', 'music', 'spices')
+    
     with open('wordlists/' + random.choice(one), 'r') as f:
         first = [ x.strip() for x in f.readlines() ]
         first = filter(lambda x: len(x) > 1, first)
