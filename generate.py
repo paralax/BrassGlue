@@ -5,9 +5,9 @@ import sys
 
 # in the style of frog team names ... 
 
-one = ('adjectives', 'elements', 'metals', 'verbs',)
-two = ('animals', 'boats', 'dogs', 'flowers', 'reptiles', 'weapons', 'birds', 
-       'fish', 'cats', 'fruit', 'plants', 'tools',)
+one = ('adjectives', 'elements', 'metals', 'verbs', 'sizes', 'gerunds', 'adverbs')
+two = ('animals', 'boats', 'dogs', 'flowers', 'reptiles', 'weapons', 'birds',
+       'fish', 'cats', 'fruit', 'plants', 'tools', 'shapes', 'music', 'spices')
 
 with open('wordlists/' + random.choice(one), 'r') as f:
     first = [ x.strip() for x in f.readlines() ]

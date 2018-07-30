@@ -11,7 +11,7 @@ a small Flask frontend and uses Twitter Bootstrap for (basic) styling.
 License
 -------
 
-Copyright 2013 Jose Nazario all rights reserved.
+Copyright 2013-2015 Jose Nazario all rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
